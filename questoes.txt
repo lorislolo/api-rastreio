@@ -1,0 +1,15 @@
+1- Correto ou Certo:
+
+O código parece estar no caminho certo, mas há alguns problemas, embora a estrutura dos testes esteja correta, há algumas falhas na implementação que precisariam ser corrigidas para tornar o software mais robusto e adequado.
+
+2-Classificação dos Testes:
+
+Nível de Teste: Teste de Integração (testando a integração entre diferentes partes do sistema).
+Técnica de Teste: Teste de API (testando a API do sistema).
+Tipo de Teste:
+Teste de Unidade (para cada função ou método isoladamente, mas não está presente neste conjunto de testes).
+Teste de Integração (testando a interação entre os diferentes componentes do sistema, como a integração com a API).
+
+3-Considerando TDD:
+
+No contexto deste código, uma maneira de introduzir uma falha nos testes seria modificar a rota de uma das operações (POST, GET, PUT) de modo que os testes esperem uma resposta diferente da que realmente é retornada. Isso destacaria a necessidade de atualizar os testes para corresponderem ao comportamento esperado da API.
